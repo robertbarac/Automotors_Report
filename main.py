@@ -32,8 +32,10 @@ st.image('logo.png')
 # Párrafo justificado
 st.markdown("""
             <p style='text-align: justify;'>Automotors ofrece servicios automotrices, 
-            así como venta de llantas y accesorios para automóviles.</p>
+            así como venta de llantas y accesorios para automóviles. Para consultar cómo se hizo la limpieza de los datos, puedes consultar 
+            <a href="https://github.com/robertbarac/Automotors_Report/blob/main/limpieza.ipynb">aquí</a>.</p>
             """, unsafe_allow_html=True)
+
 
 
 
